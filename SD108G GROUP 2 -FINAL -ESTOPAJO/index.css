@@ -1,0 +1,29 @@
+#gameArea {
+  /* border: solid 1px orangered; */
+  width: 523px;
+  height: 524px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: white;
+  background-size: 100%;
+}
+
+.cell {
+  border: white solid 1px;
+  width: 166px;
+  height: 166px;
+  background-size: cover;
+  border: thick solid #7e7e7e;
+}
+body {
+  background-color: black;
+}
+h1,
+h3 {
+  color: white;
+  font-family: "Actor";
+}
+
+#gameArea:hover {
+  background-color: black;
+}
